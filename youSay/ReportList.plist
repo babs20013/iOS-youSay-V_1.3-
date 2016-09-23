@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>I don&apos;t like this say</string>
+	<string>This say is spam or a scam</string>
+	<string>This say puts people at risk</string>
+	<string>Other</string>
+</array>
+</plist>

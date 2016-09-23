@@ -1,0 +1,59 @@
+//
+//  PrefixHeader.pch
+//  trackMyCorp
+//
+//  Created by macbokpro on 7/31/15.
+//  Copyright (c) 2015 macbokpro. All rights reserved.
+//
+
+#ifndef trackMyCorp_PrefixHeader_pch
+#define trackMyCorp_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <AVFoundation/AVFoundation.h>
+#import <Foundation/Foundation.h>
+#import <RestKit/RestKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKShareKit/FBSDKShareKit.h>
+
+#import <SDWebImage/SDImageCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+
+#import <TPKeyboardAvoidingScrollView.h>
+#import "constant.h"
+#import "url.h"
+#import "HTTPReq.h"
+#import "AppDelegate.h"
+#import "SlideNavigationController.h"
+#import "MBProgressHUD.h"
+#import "GAI.h"
+#import "GAIDictionaryBuilder.h"
+#import "Reachability.h"
+
+#define HideLoader() [MBProgressHUD hideAllHUDsForView:[AppDelegate sharedDelegate].window animated:YES]
+#define ShowLoader() [MBProgressHUD showHUDAddedTo:[AppDelegate sharedDelegate].window animated:YES]
+#define SYSTEM_VERSION_EQUAL_TO(v)      ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+
+#define ALERT_VIEW(title,msg)\
+{\
+UIAlertView *av = [[UIAlertView alloc] initWithTitle:title message:msg delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];\
+[av show];\
+;\
+}
+#define YelpBasicURL @"http://www.yelp.com/search?find_desc=Accountants&find_loc="
+#define TCMBaseURL @"http://examdroid.com:8383"
+
+
+#define appdelegate \
+((AppDelegate*)[UIApplication sharedApplication].delegate)
+
+#define NSLog
+
+#endif
