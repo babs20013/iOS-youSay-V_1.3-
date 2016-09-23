@@ -820,7 +820,7 @@
                     
                 }
                 
-                [self performSelector:@selector(afterDonebutton) withObject:self afterDelay:0.2];
+                [self performSelector:@selector(afterDonebutton) withObject:self afterDelay:0.1];
 
                 
                 
@@ -884,7 +884,7 @@
                 }
 
                 
-                [self performSelector:@selector(afterDonebutton) withObject:self afterDelay:0.2 ];
+                [self performSelector:@selector(afterDonebutton) withObject:self afterDelay:0.1 ];
 
                 
             }

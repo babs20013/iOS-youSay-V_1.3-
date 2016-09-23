@@ -16,7 +16,7 @@
             startingLineNumber = "2409"
             endingLineNumber = "2409"
             landmarkName = "-btnDoneEdit:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -64,7 +64,7 @@
             startingLineNumber = "228"
             endingLineNumber = "228"
             landmarkName = "-receiveNotification:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -112,7 +112,7 @@
             startingLineNumber = "822"
             endingLineNumber = "822"
             landmarkName = "-requestEditCharm:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -128,7 +128,7 @@
             startingLineNumber = "858"
             endingLineNumber = "858"
             landmarkName = "-requestChangeCharm:andCharmOut:"
-            landmarkType = "7">
+            landmarkType = "5">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -176,7 +176,7 @@
             startingLineNumber = "1926"
             endingLineNumber = "1926"
             landmarkName = "-constructCellForProfilePage:forTableView:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -192,7 +192,7 @@
             startingLineNumber = "1936"
             endingLineNumber = "1936"
             landmarkName = "-constructCellForProfilePage:forTableView:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -208,7 +208,7 @@
             startingLineNumber = "331"
             endingLineNumber = "331"
             landmarkName = "-loadSharePopUp:Title:SubTitle:State:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -224,7 +224,7 @@
             startingLineNumber = "874"
             endingLineNumber = "874"
             landmarkName = "-requestChangeCharm:andCharmOut:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -240,7 +240,7 @@
             startingLineNumber = "2420"
             endingLineNumber = "2420"
             landmarkName = "-afterDonebutton"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -256,7 +256,7 @@
             startingLineNumber = "1653"
             endingLineNumber = "1653"
             landmarkName = "-constructCellForProfilePage:forTableView:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -272,7 +272,7 @@
             startingLineNumber = "1654"
             endingLineNumber = "1654"
             landmarkName = "-constructCellForProfilePage:forTableView:"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -288,7 +288,7 @@
             startingLineNumber = "2434"
             endingLineNumber = "2434"
             landmarkName = "-afterDonebuttonClicked"
-            landmarkType = "7">
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
